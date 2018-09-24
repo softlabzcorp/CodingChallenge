@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+#challenge {
+  width: 580px;
+  height: 520px;
+  color: #356ae6;
+  background-color: #FAFBFF;
+  font-family: IBMPlexSans;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+#app {
+  display: inline-block;
+  padding: 70px;
+}
+
+#alert {
+  width: 420px;
+  height: 54px;
+  color: #356ae6;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+#alertmessage, #alert2message {
+  height: 21px;
+  color: #356ae6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  padding: 15px;
+}
+
+#totalFundedAmount {
+  font-weight: bold;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  
+  border-top: 12px solid #e3ebfc;
+  text-align: right;
+  margin-left: 350px;
+}
+
+
+#rectangle2 {
+  width: 420px;
+  height: 42px;
+  background: #e3ebfc;
+  color: #356ae6;
+  font-family: IBMPlexSans;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  border-radius: 7px;
+}
+
+
+#progress {
+  width: 420px;
+  height: 12px;
+  color: #356ae6;
+  font-family: IBMPlexSans;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+#progress_bar {
+  width: 7px;
+  height: 12px;
+  background: #19cca3;
+  color: #356ae6;
+  font-family: IBMPlexSans;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  float: left;
+  border-top-left-radius: 7px;
+}
+
+#mask {
+  width: 413px;
+  height: 12px;
+  background: #b6f2e4;
+  letter-spacing: 0px;
+  color: #356ae6;
+  float: right;
+  border-top-right-radius: 7px;
+}
+
+#group {
+  display: inline-block;
+  height: 126px;
+  padding: 20px;
+}
+
+
+#daysLeft, #joinDonorsMessage {
+  width: 360px;       
+  color: #1f2129;
+  font-family: Poppins;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  padding: 10px;
+}
+
+#daysLeft, #joinDonorsMessage {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#joinDonorsMessage {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#totalFundedDonors {
+  font-weight: bold;
+}
+
+#form {
+  width: 351px;
+  white-space: nowrap;
+  text-align: center;
+  padding: 30px;
+}
+
+#button {
+  width: 116px;
+  height: 54px;
+  color: #1f2129;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  float: right;
+}
+
+
+#giveNow {
+  width: 81.95px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);
+  float: left;
+  padding: 15px;
+}
+
+
+#rectangle {
+  width: 116px;
+  height: 54px;
+  background: #19cca3;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#a {
+  width: 201px;
+  height: 50px;
+  color: #1f2129;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding-left: 30px;
+}
+
+
+div#form > label {
+  width: 10.78px;
+  height: 27px;
+  color: #9298ad;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  position: absolute;
+  padding: 15px;
+}
+
+
+#field {
+  width: 360px;
+  height: 54px;
+  border: 1px solid #ced3e0;
+  background: #ffffff;
+  color: #9298ad;
+  font-family: IBMPlexSans;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+
+#box {
+  width: 420px;
+  height: 300px;
+  background: #ffffff;
+  color: #9298ad;
+  font-family: IBMPlexSans;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.1);
+  border-radius: 7px;
+}
+
+
+div#form2 {
+  position: relative;
+}
+div#form2 > label {
+  position: absolute;
+}
+
+div.clear {
+    clear: both;
+}
+
